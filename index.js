@@ -5,18 +5,18 @@ class Cliente {
 
 class ContaCorrente {
     agencia;
-    saldo;
+    _saldo;
 
     sacar(valor) {
         let valorSacado = 200;
-        if (this.saldo >= valor) {
-            this.saldo -= valor;
+        if (this._saldo >= valor) {
+            this._saldo -= valor;
         }
     }
 
     depositar(valor) {
         if(valor > 0) {                 //evita que depositem valor negativo
-            this.saldo += valor;
+            this._saldo += valor;
         }
     }
 }
@@ -31,14 +31,10 @@ cliente2.cpf = 88822233309;
 
 const contaCorrenteRicardo = new ContaCorrente();
 contaCorrenteRicardo.agencia = 1001;
-contaCorrenteRicardo.saldo = 0;
+contaCorrenteRicardo._saldo = 0;
 
-console.log(contaCorrenteRicardo.saldo);
-contaCorrenteRicardo.depositar(50);
+contaCorrenteRicardo.depositar(100);
 
-console.log(contaCorrenteRicardo.saldo);
-contaCorrenteRicardo.sacar(0);
+contaCorrenteRicardo.sacar(50);
 
-console.log(contaCorrenteRicardo.saldo);
-console.log(cliente1);
-console.log(cliente2);
+console.log(contaCorrenteRicardo);
