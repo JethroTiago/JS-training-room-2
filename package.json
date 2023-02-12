@@ -12,6 +12,7 @@
   },
   "author": "Jethro Tiago",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/JethroTiago/projeto-38/issues"
   },
