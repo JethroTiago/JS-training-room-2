@@ -18,3 +18,5 @@ contaCorrenteRicardo.depositar(100);
 const valorSacado = contaCorrenteRicardo.sacar(50);
 
 console.log(contaCorrenteRicardo);
+
+//Colocar o import para chamar os módulos que estão em outros arquivos
