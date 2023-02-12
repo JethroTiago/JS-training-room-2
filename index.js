@@ -1,18 +1,3 @@
-sacar(valor) {
-    let valorSacado = 200;
-    if (this._saldo >= valor) {
-        this._saldo -= valor;
-        return valor;
-    }
-}
-
-depositar(valor) {
-    if (valor <= 0) {
-        return;
-    }
-    this._saldo += valor;
-}
-
 const cliente1 = new Cliente();
 cliente1.nome = "Ricardo";
 cliente1.cpf = 11122233309;
