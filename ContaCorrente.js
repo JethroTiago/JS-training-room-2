@@ -24,6 +24,8 @@ export class ContaCorrente {
         return this._saldo;
     }
 
+    //CONSTRUTOR
+
     constructor(cliente, agencia) {
         this.cliente = cliente;
         this.agencia = agencia;
