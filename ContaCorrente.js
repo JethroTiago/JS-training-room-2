@@ -6,6 +6,9 @@ export class ContaCorrente {
     
     //ATRIBUTO PRIVADO:
     _cliente;
+    _saldo = 0;
+
+    // ACESSORES
 
     set cliente(novoValor) {
         if(novoValor instanceof Cliente) {
@@ -16,8 +19,6 @@ export class ContaCorrente {
     get cliente() {
         return this._cliente;
     }
-
-    _saldo = 0;
 
     get saldo() {
         return this._saldo;
