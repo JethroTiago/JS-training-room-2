@@ -28,6 +28,4 @@ conta3.cliente = cliente3;
 
 conta1.transferir(200, conta2);
 
-console.log(conta1);
-console.log(conta2);
-console.log(conta3);
+console.log(conta2.saldo);
