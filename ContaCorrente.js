@@ -2,7 +2,7 @@ import { Cliente } from "./Cliente.js";
 
 export class ContaCorrente {
     //ATRIBUTOS PUBLICOS:
-    numeroDeContas = 0;
+    static numeroDeContas = 0;
     agencia;
     
     //ATRIBUTOS PRIVADOS:
@@ -30,7 +30,7 @@ export class ContaCorrente {
     constructor(agencia, cliente) {
         this.agencia = agencia;
         this.cliente = cliente;
-        this.numeroDeContas += 1;
+        ContaCorrente.numeroDeContas += 1;
     }
 
     sacar(valor) {
