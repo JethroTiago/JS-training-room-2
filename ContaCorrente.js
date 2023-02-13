@@ -1,9 +1,12 @@
 export class ContaCorrente {
+    //ATRIBUTO PUBLICO:
     agencia;
-    _saldo;
+    cliente;
+
+    //ATRIBUTO PRIVADO:
+    _saldo = 0;
 
     sacar(valor) {
-        let valorSacado = 200;
         if (this._saldo >= valor) {
             this._saldo -= valor;
             return valor;
