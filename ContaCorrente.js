@@ -1,9 +1,9 @@
 export class ContaCorrente {
     //ATRIBUTO PUBLICO:
     agencia;
-    cliente;
-
+    
     //ATRIBUTO PRIVADO:
+    _cliente;
     _saldo = 0;
 
     sacar(valor) {
