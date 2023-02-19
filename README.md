@@ -1,6 +1,6 @@
 # Treino de JavaScript
 
-Mais um repositorio utilizado para guardar meus treinos de <strong>JavaScript</strong>
+Mais um repositório utilizado para guardar meus treinos de <strong>JavaScript</strong>
 
 ### Deploy:
 
